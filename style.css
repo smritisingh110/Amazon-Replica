@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+.navbar {
+    display: flex;
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/** Box 1 **/
+.nav-logo {
+    height: 50px;
+    width: 100px;
+}
+
+.logo {
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+
+.border {
+    border: 2px solid transparent;
+}
+
+.border:hover {
+    border: 1px solid white;
+}
+
+/** Box 2**/
+.address-icon {
+    display: flex;
+
+}
+
+.nav-address {
+    align-items: center;
+}
+
+.deliver-to {
+    /* add first*/
+    margin-left: 15px;
+    color: #cccccc;
+    font-size: 0.85rem;
+}
+
+.country {
+    /* add second*/
+    margin-left: 3px;
+    color: #ffffff;
+    font-size: 1rem;
+}
+
+/** Box 3**/
+.nav-search {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: sandybrown;
+    width: 50%;
+    height: 40px;
+    border-radius: 5px;
+    border: 10px sandybrown;
+}
+
+.search-select {
+    background-color: #f3f3f3;
+    width: 40px;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+}
+
+.search-input {
+    border: none;
+    width: 100%;
+    font-size: medium;
+}
+
+.seach-icon {
+    align-items: center;
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    font-size: 1.2rem;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: #febd68;
+}
+
+.select-english {
+    display: flex;
+}
+
+.icon-usa-logo {
+    margin: 2px;
+}
+
+
+.list-option {
+    border: none;
+
+}
+
+.signup-hello {
+    font-size: 0.80rem;
+}
+
+.Accounts-lists {
+    font-size: 0.95rem;
+    font-weight: bold;
+    display: flex;
+}
+
+.return {
+    font-size: 0.80rem;
+}
+
+.orders {
+    font-weight: bold;
+    font-size: 0.95rem;
+}
+
+.cart {
+    display: flex;
+}
+
+.cart-icon {
+    font-size: 1.5rem;
+}
+
+.cartText {
+    font-size: 0.95;
+}
+
+.h2header{
+    display: flex;
+    background-color:rgb(7, 47, 7);
+
+}
+.header2 {
+    width: 35%;
+    height: 30px;
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+}
+
+.menu-box {
+    justify-content: space-evenly;
+    display: flex;
+}
+
+.menu-icon {
+    font-size: 1rem;
+}
+
+.all {
+    font-size: 1rem;
+}
+
+.todays-deals {
+    font-size: 1rem;
+}
+
+.Registry {
+    font-size: 1rem;
+}
+
+.Cutomerservice {
+    font-size: 1rem;
+}
+
+.giftCards {
+    font-size: 1rem;
+}
+
+.sell {
+    font-size: 1rem;
+}
+.rightsection{
+    font-size: 1rem;
+    width: 68%;
+    text-align: right;
+    color: #ffffff;
+}
+
+
+@media (max-width: 768px) {
+    .logo{
+        background-image: url("amazon.svg");
+    }
+}
